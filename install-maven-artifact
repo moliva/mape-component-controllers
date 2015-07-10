@@ -6,7 +6,6 @@ IFS=$'\n\t'
 mvn install:install-file -Dfile=lib/fractal-adl-2.7-SNAPSHOT.jar -DgroupId=org.objectweb.fractal.fractaladl -DartifactId=fractal-adl -Dversion=2.7-SNAPSHOT -Dpackaging=jar
 mvn install:install-file -Dfile=lib/fractal-api-2.0.3-SNAPSHOT.jar -DgroupId=org.objectweb.fractal.fractalapi -DartifactId=fractal-api -Dversion=2.0.3-SNAPSHOT -Dpackaging=jar
 mvn install:install-file -Dfile=lib/fscript-2.1.4-SNAPSHOT.jar -DgroupId=org.objectweb.fractal.fscript -DartifactId=fscript -Dversion=2.1.4-SNAPSHOT -Dpackaging=jar
-mvn install:install-file -Dfile=lib/fscript-console-2.1.4-SNAPSHOT.jar -DgroupId=org.objectweb.fractal.fscript -DartifactId=fscript-console -Dversion=2.1.4-SNAPSHOT -Dpackaging=jar
 mvn install:install-file -Dfile=lib/jline-2.13-SNAPSHOT.jar -DgroupId=jline -DartifactId=jline -Dversion=2.13-SNAPSHOT -Dpackaging=jar
 
 mvn install:install-file -DpomFile=pom.xml -Dfile=build/test.jar
