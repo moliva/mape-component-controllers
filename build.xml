@@ -5,11 +5,13 @@
 	<property name="build.dir"	value="${base.dir}/build" />
 	<property name="compile.dir"	value="${build.dir}/classes" />
 	<property name="source.level"	value="1.7"/>
+	<property environment="env"/>
+	<property name="proactive.home"	value="${env.PROACTIVE_HOME}" />
 	
 	<path id="lib.path">		
 		<fileset dir="${build.dir}" includes="**/*.jar"/>
 		<fileset dir="${base.dir}/lib" includes="**/*.jar"/>
-		<fileset dir="${base.dir}/../programming-multiactivities/dist/lib" includes="**/*.jar"/>
+		<fileset dir="${proactive.home}/dist/lib" includes="**/*.jar"/>
 		<fileset dir="${base.dir}/../gcmscript/dist/lib" includes="**/*.jar"/>
 	</path>
 
