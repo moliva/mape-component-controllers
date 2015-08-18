@@ -1,5 +1,0 @@
-action test() {
-	gcma = deploy-gcma("src/Examples/examples/md5cracker/GCMALocal.xml");
-	x = $gcma/gcmvn::VN1;
-	return $x;
-}
